@@ -1,1 +1,1 @@
-# MetaTeacher Medical Classification
+# CS577 Project: MetaTeacher for Medical Image Classification
