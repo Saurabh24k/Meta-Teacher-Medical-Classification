@@ -26,20 +26,26 @@ Our strategy was comprehensive and data-centric, involving:
   (fc2): Linear(in_features=512, out_features=15, bias=True)
 
 - **Model Training**: Fine-tune the ResNet-18 model on the training dataset.
-  <p float="left">
-  <img src="v1/images/6.png" alt="IMG6" width="100" />
-</p>
   
-Epoch 1/5, Train Loss: 0.3038, Train Accuracy: 0.8780
-Epoch 1/5, Validation Loss: 0.2648, Validation Accuracy: 0.9118
-Epoch 2/5, Train Loss: 0.2117, Train Accuracy: 0.9197
-Epoch 2/5, Validation Loss: 0.1931, Validation Accuracy: 0.9289
-Epoch 3/5, Train Loss: 0.1843, Train Accuracy: 0.9291
-Epoch 3/5, Validation Loss: 0.2076, Validation Accuracy: 0.9156
-Epoch 4/5, Train Loss: 0.1661, Train Accuracy: 0.9356
-Epoch 4/5, Validation Loss: 0.1832, Validation Accuracy: 0.9281
-Epoch 5/5, Train Loss: 0.1388, Train Accuracy: 0.9463
-Epoch 5/5, Validation Loss: 0.2496, Validation Accuracy: 0.8918
+    Epoch 1/5, Train Loss: 0.3038, Train Accuracy: 0.8780
+    Epoch 1/5, Validation Loss: 0.2648, Validation Accuracy: 0.9118
+
+    Epoch 2/5, Train Loss: 0.2117, Train Accuracy: 0.9197
+    Epoch 2/5, Validation Loss: 0.1931, Validation Accuracy: 0.9289
+
+    Epoch 3/5, Train Loss: 0.1843, Train Accuracy: 0.9291
+    Epoch 3/5, Validation Loss: 0.2076, Validation Accuracy: 0.9156
+
+    Epoch 4/5, Train Loss: 0.1661, Train Accuracy: 0.9356
+    Epoch 4/5, Validation Loss: 0.1832, Validation Accuracy: 0.9281
+
+    Epoch 5/5, Train Loss: 0.1388, Train Accuracy: 0.9463
+    Epoch 5/5, Validation Loss: 0.2496, Validation Accuracy: 0.8918
+
+
+<p float="left">
+  <img src="v1/images/6.png" alt="IMG6" width="700" />
+</p>
 
 
 - **Training and Evaluation:** Rigorous training methods coupled with robust evaluation protocols to validate the model's effectiveness.
