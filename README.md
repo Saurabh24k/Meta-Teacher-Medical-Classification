@@ -26,6 +26,9 @@ Our strategy was comprehensive and data-centric, involving:
   (fc2): Linear(in_features=512, out_features=15, bias=True)
 
 - **Model Training**: Fine-tune the ResNet-18 model on the training dataset.
+  <p float="left">
+  <img src="v1/images/6.png" alt="IMG6" width="100" />
+</p>
   
 Epoch 1/5, Train Loss: 0.3038, Train Accuracy: 0.8780
 Epoch 1/5, Validation Loss: 0.2648, Validation Accuracy: 0.9118
