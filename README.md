@@ -11,6 +11,7 @@ This project, helmed by Sukhmani Sandhu, Arpita Jadhav, and Saurabh Rajput, pres
 ## Methodology
 Our strategy was comprehensive and data-centric, involving:
 - **Data Preparation:** Extensive processing of the NIH-CXR14 dataset, involving cleaning and annotating a diverse set of chest X-ray images.
+- <img src="v1/images/1.png,2.png,3.png,4.png" alt="Example Image" width="200"/>
 - **Model Development:** Building and refining the MultiLabelCNN architecture to effectively handle multi-label classification challenges.
 - **Training and Evaluation:** Rigorous training methods coupled with robust evaluation protocols to validate the model's effectiveness.
 
