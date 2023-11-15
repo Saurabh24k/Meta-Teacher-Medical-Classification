@@ -11,9 +11,22 @@ This project, helmed by Sukhmani Sandhu, Arpita Jadhav, and Saurabh Rajput, pres
 ## Methodology
 Our strategy was comprehensive and data-centric, involving:
 - **Data Preparation:** Extensive processing of the NIH-CXR14 dataset, involving cleaning and annotating a diverse set of chest X-ray images.
-- <img src="v1/images/1.png,2.png,3.png,4.png" alt="Example Image" width="200"/>
+- <p float="left">
+  <img src="v1/images/1.png" alt="IMG1" width="100" />
+  <img src="v1/images/2.png" alt="IMG2" width="100" />
+  <img src="v1/images/3.png" alt="IMG3" width="100" />
+  <img src="v1/images/4.png" alt="IMG4" width="100" />
+</p>
+
 - **Model Development:** Building and refining the MultiLabelCNN architecture to effectively handle multi-label classification challenges.
+- (conv1): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=32768, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=15, bias=True)
+  
 - **Training and Evaluation:** Rigorous training methods coupled with robust evaluation protocols to validate the model's effectiveness.
+- Accuracy: **92.76%**
 
 ## Repository Structure
 - `NIHCXR14Dataset.py`: Script for dataset processing and preparation.
