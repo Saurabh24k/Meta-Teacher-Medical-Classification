@@ -24,7 +24,21 @@ Our strategy was comprehensive and data-centric, involving:
   (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
   (fc1): Linear(in_features=32768, out_features=512, bias=True)
   (fc2): Linear(in_features=512, out_features=15, bias=True)
+
+- **Model Training**: Fine-tune the ResNet-18 model on the training dataset.
   
+Epoch 1/5, Train Loss: 0.3038, Train Accuracy: 0.8780
+Epoch 1/5, Validation Loss: 0.2648, Validation Accuracy: 0.9118
+Epoch 2/5, Train Loss: 0.2117, Train Accuracy: 0.9197
+Epoch 2/5, Validation Loss: 0.1931, Validation Accuracy: 0.9289
+Epoch 3/5, Train Loss: 0.1843, Train Accuracy: 0.9291
+Epoch 3/5, Validation Loss: 0.2076, Validation Accuracy: 0.9156
+Epoch 4/5, Train Loss: 0.1661, Train Accuracy: 0.9356
+Epoch 4/5, Validation Loss: 0.1832, Validation Accuracy: 0.9281
+Epoch 5/5, Train Loss: 0.1388, Train Accuracy: 0.9463
+Epoch 5/5, Validation Loss: 0.2496, Validation Accuracy: 0.8918
+
+
 - **Training and Evaluation:** Rigorous training methods coupled with robust evaluation protocols to validate the model's effectiveness.
 - Accuracy: **92.76%**
 
