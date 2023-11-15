@@ -27,9 +27,6 @@ Our strategy was comprehensive and data-centric, involving:
   
 - **Training and Evaluation:** Rigorous training methods coupled with robust evaluation protocols to validate the model's effectiveness.
 - Accuracy: **92.76%**
-- <p float="left">
-  <img src="v1/images/5.png" alt="IMG5" width="600" />
-</p>
 
 ## Repository Structure
 - `NIHCXR14Dataset.py`: Script for dataset processing and preparation.
