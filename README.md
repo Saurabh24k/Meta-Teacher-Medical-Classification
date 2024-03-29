@@ -53,12 +53,6 @@ Our strategy was comprehensive and data-centric, involving:
    <img src="v1/images/5.png" alt="IMG5" width="600" />
 </p>
 
-## Repository Structure
-- `NIHCXR14Dataset.py`: Script for dataset processing and preparation.
-- `MultiLabelCNN.py`: Core model architecture and training script.
-- `requirements.txt`: Dependencies required for the project.
-- `data/`: Sample dataset directory (subject to data privacy and availability).
-- `notebooks/`: Exploratory Jupyter notebooks detailing project methodologies.
 
 ## Getting Started
 To replicate or build upon our work:
